@@ -67,7 +67,7 @@ function App() {
             <img
               title="First slide"
               width="100%"
-              height="600px"
+              height="1080px"
               src="https://sweb.mbs.com.vn/ulf/images/web/NGT_S24_Login_420x140px.jpg"
             />
           </Carousel.Item>
@@ -75,7 +75,7 @@ function App() {
             <img
               title="Second slide"
               width="100%"
-              height="600px"
+              height="1080px"
               src="https://sweb.mbs.com.vn/ulf/images/web/UudaiPS_S24Login_420x140px.jpg"
             />
           </Carousel.Item>
