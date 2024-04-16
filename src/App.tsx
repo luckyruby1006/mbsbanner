@@ -41,7 +41,7 @@ function App() {
     setIsShowWinner(true);
   };
   return (
-    <Container style={{ maxWidth: "1080px" }} fluid>
+    <Container style={{ position:"relative" }} fluid>
       <Row>
         <Col xs={12} className="background-banner">
           <div className="container-wheel">
@@ -66,7 +66,7 @@ function App() {
           <Carousel.Item>
             <img
               title="First slide"
-              width="1080px"
+              width="100%"
               height="600px"
               src="https://sweb.mbs.com.vn/ulf/images/web/NGT_S24_Login_420x140px.jpg"
             />
@@ -74,7 +74,7 @@ function App() {
           <Carousel.Item>
             <img
               title="Second slide"
-              width="1080px"
+              width="100%"
               height="600px"
               src="https://sweb.mbs.com.vn/ulf/images/web/UudaiPS_S24Login_420x140px.jpg"
             />
