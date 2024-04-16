@@ -15,6 +15,7 @@
 }
 .banner {
     position: absolute;
+    border-top: 4px solid white;
     left: 0px;
     bottom: 0;
     width: 100%;

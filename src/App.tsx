@@ -56,7 +56,7 @@ function App() {
               isOnlyOnce={false}
               upDuration={100}
               downDuration={500}
-              size={330}
+              size={360}
             />
           </div>
         </Col>
