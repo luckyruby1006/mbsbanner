@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Carousel, Col, Container, Row } from "react-bootstrap";
 import WheelComponent from "./WheelLucky";
 import MyVerticallyCenteredModal from "./components/MyVerticallyCenteredModal";
-import Background_QuaySo from "assets/images/Background_QuaySo_doc.jpg";
-
+import Margin95_ngang from "assets/images/ngang/Margin95_ngang.jpg";
+import NGT_ngang from "assets/images/ngang/NGT_ngang.jpg";
+import ZeroFee_ngang from "assets/images/ngang/ZeroFee_ngang.jpg";
 function App() {
   const [index, setIndex] = useState(0);
   const [isShowWinner, setIsShowWinner] = useState(false);
@@ -15,33 +15,27 @@ function App() {
     setIndex(selectedIndex);
   };
   const segments = [
-    "Giải thưởng 1",
-    "Giải thưởng tài năng",
-    "Giải nhất",
-    "Giải nhì",
-    "Giải ba",
-    "Giải bốn",
-    "Giải năm",
-    "Giải sáu",
-    "Giải bảy",
+    "Tài khoản Lộc phát",
+    "Đầu tư như ý",
+    "Danh mục sinh lời",
+    "Tài khoản Lộc phát",
+    "Đầu tư như ý",
+    "Danh mục sinh lời",
   ];
   const segColors = [
     "#EE4040",
     "#F0CF50",
     "#815CD1",
-    "#3DA5E0",
     "#34A24F",
-    "#F9AA1F",
-    "#EC3F3F",
     "#FF9000",
-    "#F0CF50",
+    "#fed019",
   ];
   const onFinished = (winner: any) => {
     setInfoWinner(winner);
     setIsShowWinner(true);
   };
   return (
-    <Container style={{ position:"relative" }} fluid>
+    <Container style={{ position: "relative" }} fluid>
       <Row>
         <Col xs={12} className="background-banner">
           <div className="container-wheel">
@@ -55,8 +49,8 @@ function App() {
               buttonText="Quay"
               isOnlyOnce={false}
               upDuration={100}
-              downDuration={500}
-              size={360}
+              downDuration={700}
+              size={280}
             />
           </div>
         </Col>
@@ -67,16 +61,21 @@ function App() {
             <img
               title="First slide"
               width="100%"
-              height="600px"
-              src="https://sweb.mbs.com.vn/ulf/images/web/NGT_S24_Login_420x140px.jpg"
+              src={Margin95_ngang}
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               title="Second slide"
               width="100%"
-              height="600px"
-              src="https://sweb.mbs.com.vn/ulf/images/web/UudaiPS_S24Login_420x140px.jpg"
+              src={NGT_ngang}
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              title="Second slide"
+              width="100%"
+              src={ZeroFee_ngang}
             />
           </Carousel.Item>
         </Carousel>
