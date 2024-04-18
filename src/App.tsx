@@ -50,7 +50,7 @@ function App() {
               isOnlyOnce={false}
               upDuration={100}
               downDuration={700}
-              size={220}
+              size={280}
             />
           </div>
         </Col>
@@ -61,7 +61,6 @@ function App() {
             <img
               title="First slide"
               width="100%"
-              height="300px"
               src={Margin95_ngang}
             />
           </Carousel.Item>
@@ -69,7 +68,6 @@ function App() {
             <img
               title="Second slide"
               width="100%"
-              height="300px"
               src={NGT_ngang}
             />
           </Carousel.Item>
@@ -77,7 +75,6 @@ function App() {
             <img
               title="Second slide"
               width="100%"
-              height="300px"
               src={ZeroFee_ngang}
             />
           </Carousel.Item>
