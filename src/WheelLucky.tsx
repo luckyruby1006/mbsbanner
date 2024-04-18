@@ -30,7 +30,7 @@ const WheelComponent = ({
   upDuration = 100,
   downDuration = 1000,
   fontFamily = 'proxima-nova',
-  fontSize = '30px',
+  fontSize = '24px',
   outlineWidth = 4
 }: WheelComponentProps) => {
   const randomString = () => {

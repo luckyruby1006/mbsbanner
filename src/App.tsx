@@ -17,12 +17,12 @@ function App() {
     setIndex(selectedIndex);
   };
   const segments = [
-    "Tài khoản Lộc phát",
-    "Đầu tư như ý",
-    "Danh mục sinh lời",
-    "Tài khoản Lộc phát",
-    "Đầu tư như ý",
-    "Danh mục sinh lời",
+    "TÀI KHOẢN LỘC PHÁT",
+    "ĐẦU TƯ NHƯ Ý",
+    "DANH MỤC SINH LỜI",
+    "TÀI KHOẢN LỘC PHÁT",
+    "ĐẦU TƯ NHƯ Ý",
+    "DANH MỤC SINH LỜI",
   ];
   const segColors = [
     "#EE4040",
