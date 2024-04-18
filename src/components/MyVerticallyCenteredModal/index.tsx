@@ -7,11 +7,11 @@ import Ombs from "assets/images/ombs.png";
 const showBG = (infoWinner: string) => {
   switch (infoWinner) {
     case "TÀI KHOẢN LỘC PHÁT":
-      return <img width="450px" src={Butbinhnuoc} />
+      return <img width="766px" src={Butbinhnuoc} />
     case "ĐẦU TƯ NHƯ Ý":
-      return <img width="450px" src={Butso} />
+      return <img width="766px" src={Butso} />
     case "DANH MỤC SINH LỜI":
-      return <img width="450px" src={Ombs} />
+      return <img width="766px" src={Ombs} />
     default:
       return
   }
