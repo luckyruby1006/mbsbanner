@@ -15,12 +15,12 @@ function App() {
     setIndex(selectedIndex);
   };
   const segments = [
-    "Tài khoản Lộc phát",
-    "Đầu tư như ý",
-    "Danh mục sinh lời",
-    "Tài khoản Lộc phát",
-    "Đầu tư như ý",
-    "Danh mục sinh lời",
+    "TÀI KHOẢN LỘC PHÁT",
+    "ĐẦU TƯ NHƯ Ý",
+    "DANH MỤC SINH LỜI",
+    "ĐẦU TƯ NHƯ Ý",
+    "TÀI KHOẢN LỘC PHÁT",
+    "DANH MỤC SINH LỜI",
   ];
   const segColors = [
     "#EE4040",
@@ -50,7 +50,7 @@ function App() {
               isOnlyOnce={false}
               upDuration={100}
               downDuration={700}
-              size={280}
+              size={220}
             />
           </div>
         </Col>
@@ -61,6 +61,7 @@ function App() {
             <img
               title="First slide"
               width="100%"
+              height="300px"
               src={Margin95_ngang}
             />
           </Carousel.Item>
@@ -68,6 +69,7 @@ function App() {
             <img
               title="Second slide"
               width="100%"
+              height="300px"
               src={NGT_ngang}
             />
           </Carousel.Item>
@@ -75,6 +77,7 @@ function App() {
             <img
               title="Second slide"
               width="100%"
+              height="300px"
               src={ZeroFee_ngang}
             />
           </Carousel.Item>

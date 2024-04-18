@@ -6,11 +6,11 @@ import Butso from "assets/images/butso.png";
 import Ombs from "assets/images/ombs.png";
 const showBG = (infoWinner: string) => {
   switch (infoWinner) {
-    case "Tài khoản Lộc phát":
+    case "TÀI KHOẢN LỘC PHÁT":
       return <img width="450px" src={Butbinhnuoc} />
-    case "Đầu tư như ý":
+    case "ĐẦU TƯ NHƯ Ý":
       return <img width="450px" src={Butso} />
-    case "Danh mục sinh lời":
+    case "DANH MỤC SINH LỜI":
       return <img width="450px" src={Ombs} />
     default:
       return
@@ -26,10 +26,10 @@ function MyVerticallyCenteredModal({ infoWinner, onHide, ...rest }: any) {
       centered
     >
       <Modal.Header>
-        <Modal.Title id="contained-modal-title-vcenter">Chúc mừng</Modal.Title>
+        <Modal.Title id="contained-modal-title-vcenter">Chúc mừng Quý khách đã nhận được</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>{infoWinner}</h4>
+        <h4>Món quà {infoWinner}</h4>
         {showBG(infoWinner)}
       </Modal.Body>
       <Modal.Footer>
