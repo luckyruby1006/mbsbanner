@@ -11,7 +11,7 @@ const showBG = (infoWinner: string) => {
     case "ĐẦU TƯ NHƯ Ý":
       return <img width="450px" src={Butso} />
     case "DANH MỤC SINH LỜI":
-      return <img width="450px" src={Ombs} />
+      return <img width="450px" src={Butbinhnuoc} />
     default:
       return
   }
